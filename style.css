@@ -1,0 +1,121 @@
+
+body{
+    background-color: rgb(217, 231, 243);
+    background-image:url(pinna.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 600px;
+    
+}
+main{
+    display: flex;
+    height: 130vh;
+}
+.about{
+    color: aliceblue;
+    border: 0px;
+    margin: 50px;
+    font-family:u8, sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+     background-color:rgba(236, 232, 236, 0.911);
+     width: 950px;
+     height: 700px;
+     margin-left: auto;
+     margin-right: auto;
+     position: absolute;
+     top: 70%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+     border: 0px;
+     border-radius: 60px 0px 60px 0px;
+     }
+.img{
+    height: 450px;
+    width: 380px; 
+    border: 0px;
+    padding: 20px;
+    border-radius: 60px 0px 60px 0px;
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    border: 0px;
+}
+#name{
+    font-size: 24px;
+    border: 0px sold white;
+    margin: 30px 40px 0px 40px;
+    font-family:'Amaranth', sans-serif;
+    font-size: 24px;
+    color:rgb(129, 123, 123);
+    
+}
+#occupation{
+    font-size: 14px;
+    color:rgb(129, 123, 123);
+    border:none;
+    border: 0px solid white;
+    margin: 0px;
+    font-family: 'Bad Script', cursive;
+
+}
+h3{
+    font-size: 24px;
+    color:rgb(75, 72, 72);
+    border: none;
+    font-family:'Bad Script', cursive; 
+    
+}
+#about{
+    font-size: 25px;
+    color:rgb(129, 123, 123);
+    border: none;
+    font-family: 'Bad Script', cursive;
+
+}
+#abt_content{   
+     font-size: 14px;
+    color:rgb(129, 123, 123);
+    border: 0px solid white;
+    margin: 0px;
+    font-family: 'Great Vibes',cursive;
+    
+}
+#info{
+    font-size: 15px;
+    color:rgb(85, 78, 78);
+    border: 1px rgba(236, 232, 236, 0.911);
+    margin: 8px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px  rgba(0, 0, 255, .2);
+}
+#contact{
+    color: rgb(11, 11, 94);
+}
+.input,#textarea{
+    width: 45%;
+    padding: 6px 6px;
+    background:rgb(238, 237, 237);
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+#label{
+    color:rgb(19, 19, 80);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+#submit{
+    color:white;
+    background-color: rgb(11, 11, 58);
+}
+
